@@ -6,7 +6,7 @@ class DecodeTest {
 
     @Test
     void decode() {
-        Decode d = new Decode(0, "B");
-        assertEquals("a", d.decode());
+        Decode d = new Decode();
+        assertEquals("HI", d.decode(2, "JK"));
     }
 }

@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcbfce71-780f-4dc1-a778-a1c0700d3d98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EncodingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Decode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Decode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DecodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DecodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Encoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EncodingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +84,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DecodeTest.decode">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="caesar.main" />
       <method v="2">
@@ -107,31 +111,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EncodingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="caesar.main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UtilsTest" />
+      <option name="MAIN_CLASS_NAME" value="EncodingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Caesar" />
+    <configuration name="EncodingTest.encode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="caesar.main" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UtilsTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="EncodingTest" />
+      <option name="METHOD_NAME" value="encode" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DecodeTest.decode" />
-        <item itemvalue="JUnit.DecodeTest" />
-        <item itemvalue="JUnit.UtilsTest (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.UtilsTest" />
+        <item itemvalue="JUnit.DecodeTest" />
+        <item itemvalue="JUnit.EncodingTest" />
+        <item itemvalue="JUnit.EncodingTest.encode" />
+        <item itemvalue="JUnit.DecodeTest.decode" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +150,7 @@
       <updated>1650617615069</updated>
       <workItem from="1650617616580" duration="335000" />
       <workItem from="1650617966214" duration="3330000" />
-      <workItem from="1650782746101" duration="3141000" />
+      <workItem from="1650782746101" duration="8300000" />
     </task>
     <servers />
   </component>

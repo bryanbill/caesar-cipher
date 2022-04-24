@@ -6,6 +6,7 @@ class EncodingTest {
 
     @Test
     void encode() {
-
+        Encoding encoding = new Encoding();
+        assertEquals("JK", encoding.encode(2,  "HI"));
     }
 }
