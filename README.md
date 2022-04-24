@@ -1,6 +1,6 @@
-# Caesar
+# Caesar Cipher
 
-### (Caesar - CLI Encryption Decryption Tool)
+### (Caesar Cipher - CLI Encryption Decryption Tool)
 
 - [Description](#overall-project-description)
 - [Setup instructions](#setup-instructions)
@@ -17,9 +17,9 @@ shift values.
 
 ### Clone the repository
 
-HTTPS: `git clone https://github.com/bryanbill/caesar.git`
+HTTPS: `git clone https://github.com/bryanbill/caesar-cipher.git`
 
-SSH: `git clone git@github.com:bryanbill/caesar.git`
+SSH: `git clone git@github.com:bryanbill/caesar-cipher.git`
 
 
 ## Languages and Frameworks
