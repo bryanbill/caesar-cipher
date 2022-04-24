@@ -16,8 +16,14 @@ public class Utils {
      */
 
     public static String readString(){
-//        By default, the next line is read as a string.
-        return read();
+        // By default, the next line is read as a string.
+        // Sanitize the input.
+        String input =  read().replaceAll("\\s+","");
+        // Check if the input is empty.
+        if(input.isEmpty()){
+            throw new RuntimeException("Empty input!");
+        }
+        return input;
     }
 
     /**
