@@ -1,20 +1,32 @@
 public class Decode {
 
-    public static String decode() {
-        // Decode Caesar Cipher
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < Helper.getPayload().length(); i++) {
-            char c = Helper.getPayload().charAt(i);
-            if (Character.isLetter(c)) {
-                if (Character.isUpperCase(c)) {
-                    sb.append((char)('A' + (c - 'A' - Helper.getKey()) % 26));
-                } else {
-                    sb.append((char)('a' + (c - 'a' - Helper.getKey()) % 26));
+    public static String decode(String encrypted) {
+        char ch;
+        String decrypted = "";
+        for(int i = 0; i < encrypted.length(); ++i){
+            ch = encrypted.charAt(i);
+            if(ch >= 'a' && ch <= 'z'){
+                ch = (char)(ch - Helper.getKey());
+
+                if(ch < 'a'){
+                    ch = (char)(ch + 'z' - 'a' + 1);
                 }
-            } else {
-                sb.append(c);
+
+                decrypted += ch;
+            }
+            else if(ch >= 'A' && ch <= 'Z'){
+                ch = (char)(ch - Helper.getKey());
+
+                if(ch < 'A'){
+                    ch = (char)(ch + 'Z' - 'A' + 1);
+                }
+
+                decrypted += ch;
+            }
+            else {
+                decrypted += ch;
             }
         }
-        return sb.toString();
+        return  decrypted;
     }
 }

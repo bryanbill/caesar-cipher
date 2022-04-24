@@ -11,10 +11,10 @@ public class Main {
         // Set Helper Values
         Helper.setKey(shift);
         Helper.setPayload(input);
-
+         String output = new Encoding().encode();
         Utils.print("Output: ");
-        Utils.print("Encrypted Payload: " + new Encoding().encode());
-        Utils.print("Decrypted Payload: " + new Decode().decode());
+        Utils.print("Encrypted Payload: " + output );
+        Utils.print("Decrypted Payload: " + new Decode().decode(output));
 
     }
 }

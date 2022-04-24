@@ -6,7 +6,9 @@ class EncodingTest {
 
     @Test
     void encode() {
+        Helper.setKey(2);
+        Helper.setPayload("HI");
         Encoding encoding = new Encoding();
-        assertEquals("JK", encoding.encode(2,  "HI"));
+        assertEquals("JK", encoding.encode());
     }
 }
