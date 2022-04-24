@@ -27,3 +27,21 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# Gradle BUILD files
+*.gradle/
+!**/src/main/**/*.gradle/
+!**/src/test/**/*.gradle/
+build/
+
+#Gradle External Files
+*.gradle.properties
+*.gradle.kts
+*.gradle.checkstyle
+*.gradle.scan
+
+#Gradle Executions
+*.gradle.execution
+gradlew
+gradlew.bat
+gradle/

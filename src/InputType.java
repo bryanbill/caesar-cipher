@@ -1,3 +1,5 @@
+
+
 public enum InputType {
     /**
      * The input type is unknown.
