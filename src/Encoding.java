@@ -6,7 +6,11 @@ public class Encoding {
         this.payload = payload;
     }
 
-    public static String encode(){
-        return "";
+    public  String encode(){
+        String encoded = "";
+        for(int i = 0; i < payload.length(); i++){
+            encoded += (char)(payload.charAt(i) + key);
+        }
+        return encoded;
     }
 }
