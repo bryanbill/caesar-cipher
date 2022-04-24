@@ -12,7 +12,7 @@ public class Utils {
 
     /**
      * Reads a string from the console.
-     * @return The string read from the console.
+     * @return string
      */
 
     public static String readString(){
@@ -22,7 +22,7 @@ public class Utils {
 
     /**
      * Reads a string from the console and converts it to an integer.
-     * @return The int read from the console.
+     * @return int
      */
     public static int readInt(){
        try {
