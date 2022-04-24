@@ -1,15 +1,15 @@
 public class Decode {
 
-    public static String decode(int key, String s) {
+    public static String decode() {
         // Decode Caesar Cipher
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
+        for (int i = 0; i < Helper.getPayload().length(); i++) {
+            char c = Helper.getPayload().charAt(i);
             if (Character.isLetter(c)) {
                 if (Character.isUpperCase(c)) {
-                    sb.append((char)('A' + (c - 'A' - key) % 26));
+                    sb.append((char)('A' + (c - 'A' - Helper.getKey()) % 26));
                 } else {
-                    sb.append((char)('a' + (c - 'a' - key) % 26));
+                    sb.append((char)('a' + (c - 'a' - Helper.getKey()) % 26));
                 }
             } else {
                 sb.append(c);

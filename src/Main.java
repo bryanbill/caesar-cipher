@@ -7,11 +7,14 @@ public class Main {
         String input = Utils.readString();
         Utils.print("Enter Shift Key (1-25): ");
         int shift = Utils.readInt();
-        Utils.print(String.valueOf(shift));
-        String output = new Encoding().encode(shift, input);
+
+        // Set Helper Values
+        Helper.setKey(shift);
+        Helper.setPayload(input);
+
         Utils.print("Output: ");
-        Utils.print("Encrypted Payload: " + output);
-        Utils.print("Decrypted Payload: " + new Decode().decode(shift, output));
+        Utils.print("Encrypted Payload: " + new Encoding().encode());
+        Utils.print("Decrypted Payload: " + new Decode().decode());
 
     }
 }

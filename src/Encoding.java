@@ -1,10 +1,10 @@
 public class Encoding {
 
-    public  String encode(int key, String payload) {
+    public  String encode() {
        // Encrypt to Caesar cipher
        StringBuilder sb = new StringBuilder();
-       for (char c : payload.toCharArray()) {
-           sb.append((char)(c + key));
+       for (char c : Helper.getPayload().toCharArray()) {
+           sb.append((char)(c + Helper.getKey()));
        }
        return sb.toString();
     }
